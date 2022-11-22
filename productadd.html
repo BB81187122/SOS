@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        body{
+            background:linear-gradient(90deg,#0b161d 39%,rgb(23, 50, 33) 80%)
+        }
+       .A
+       {
+        background-color: #042b4c;
+        position:absolute;
+        top:0px;
+        left:0px;
+        width: 100%;
+         height: 57px;
+       }
+       #c
+       {
+             position: relative;
+             bottom:40px;
+             left:95%;
+       }
+       .B
+       {
+        position: relative;
+        top:180px;
+       }
+     #fo
+     {
+        background-color: aliceblue;
+        border-radius: 4px;
+        padding: 40px;
+        width: 200px;
+        margin-left: 500px;
+     }
+     input
+     {
+       border: none;
+       outline: none;
+       padding: 10px;
+       margin-top: 10px;
+     }
+     .f button
+     {
+        margin-top: 10px;
+        margin-left:20px;
+        padding:10px;
+        background-color: aquamarine;
+        border: none;
+        border-radius: 4px;
+        width:70%;
+     }
+     h3{
+        color:#612e2e;
+        text-align: center;
+     }
+    </style>
+</head>
+<body>
+    <div class="A">
+        <h2>Add-product</h2>
+        <a href="admin.html" id="c" style="text-decoration:none; color:ghostwhite;font-size: 15px ;">back</a>
+    </div>
+    <div class="B">
+        <form id="fo" action="#">
+            <h3>ADD PRODUCT</h3>
+           <div class="f"><input id="PRODUCT_ID" type="text" placeholder="PRODUCT_ID"></div>
+           <div class="f"><input id="PRODUCT_NAME" type="text" placeholder="PRODUCT_NAME"></div>
+           <div class="f"><input id="PRODUCT_PRICE" type="number" placeholder="PRODUCT_PRICE"></div>
+           <div class="f"><input id="PRODUCT_IMG" type="url" placeholder="PRODUCT_IMG"></div>
+           <div class="f"><button type="submit">ADD</button></div>
+        </form>
+    </div>
+</body>
+</html>
